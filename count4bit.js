@@ -1,5 +1,5 @@
 const isBrowser = typeof process !== 'object';
-let dataset4bit = [
+let dataset = [
     {
         input:[0,0,0,0],
         target:[0,0,0,1]
@@ -62,6 +62,6 @@ let dataset4bit = [
     },];
 if (!isBrowser) {
     module.exports = {
-        dataset: dataset4bit
+        dataset: dataset
     }
 }
