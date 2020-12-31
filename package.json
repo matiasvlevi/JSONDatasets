@@ -1,0 +1,22 @@
+{
+  "name": "jsondatasets",
+  "version": "1.0.0",
+  "description": "A place to store very simple training data for simple neural network tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasvlevi/JSONDatasets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasvlevi/JSONDatasets/issues"
+  },
+  "homepage": "https://github.com/matiasvlevi/JSONDatasets#readme",
+  "dependencies": {
+    "mathjs": "^8.1.1"
+  }
+}
