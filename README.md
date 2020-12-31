@@ -9,5 +9,5 @@ You can reference any dataset with a CDN:
 
 You can modify the URL to reference any dataset file you want:
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/matiasvlevi/JSONDatasets@main/FILENAME.js"></script>
+https://cdn.jsdelivr.net/gh/matiasvlevi/JSONDatasets@main/FILENAME.js
 ```
