@@ -59,7 +59,8 @@ let dataset = [
     {
         input:[1,1,1,0],
         target:[1,1,1,1]
-    },];
+    }
+];
 if (!isBrowser) {
     module.exports = {
         dataset: dataset
