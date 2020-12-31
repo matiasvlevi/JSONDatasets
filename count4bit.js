@@ -1,0 +1,67 @@
+const isBrowser = typeof process !== 'object';
+let dataset4bit = [
+    {
+        input:[0,0,0,0],
+        target:[0,0,0,1]
+    },
+    {
+        input:[0,0,0,1],
+        target:[0,0,1,0]
+    },
+    {
+        input:[0,0,1,0],
+        target:[0,0,1,1]
+    },
+    {
+        input:[0,0,1,1],
+        target:[0,1,0,0]
+    },
+    {
+        input:[0,1,0,0],
+        target:[0,1,0,1]
+    },
+    {
+        input:[0,1,0,1],
+        target:[0,1,1,0]
+    },
+    {
+        input:[0,1,1,0],
+        target:[0,1,1,1]
+    },
+    {
+        input:[0,1,1,1],
+        target:[1,0,0,0]
+    },
+    {
+        input:[1,0,0,0],
+        target:[1,0,0,1]
+    },
+    {
+        input:[1,0,0,1],
+        target:[1,0,1,0]
+    },
+    {
+        input:[1,0,1,0],
+        target:[1,0,1,1]
+    },
+    {
+        input:[1,0,1,1],
+        target:[1,1,0,0]
+    },
+    {
+        input:[1,1,0,0],
+        target:[1,1,0,1]
+    },
+        {
+        input:[1,1,0,1],
+        target:[1,1,1,0]
+    },
+    {
+        input:[1,1,1,0],
+        target:[1,1,1,1]
+    },];
+if (!isBrowser) {
+    module.exports = {
+        dataset: dataset4bit
+    }
+}
